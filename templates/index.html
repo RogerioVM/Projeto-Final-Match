@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="icon" type="icon0.jpg" href="../static/css/imag/moedaB.jpg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/static/css/script.js"></script>
+    <link rel="stylesheet" href="https://pyscript.net/releases/2023.11.1/core.css" />
+    <script type="module" src="https://pyscript.net/releases/2023.11.1/core.js"></script>
+    
+    <title>Conversor de moedas</title>
+    
+    <script src="https://pyscript-embed.herokuapp.com/pyscript.js"></script>
+
+</head>
+<body>
+
+    <!-- <script>
+        function chamar_arquivo() {
+            var xhr = new XMLHttpRequest();
+            xhr.open("GET", "/conversorgraphicofinalizar.py");
+            xhr.send();
+        }
+    </script> -->
+    
+   
+   
+    <i class="bi bi-list menu-mobile"></i>
+  
+   <aside id="header">
+        <section class="profile">
+            <img src="/static/css/imag/match.png" alt="MastertecIBM">
+                <h1>Projeto MastertecIBM</h1>
+            <div class="social-links mt-4 text-center">
+                <a href="http://www.instagram.com/" target="_blank">
+                 <i class="bi bi-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com/" target="_blank">
+                    <i class="bi bi-linkedin"></i>
+                </a>
+                <a href="https://github.com/" target="_blank">
+                    <i class="bi bi-github"></i>
+                </a> 
+            </div>    
+             
+            <nav id="navbar" class="nav-menu">
+        
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#inicio"><i class="bi bi-house-door"></i> 
+                         Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre"><i class="bi bi-person-standing"></i> 
+                         Sobre</a>
+                    </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projeto"><i class="bi bi-collection-fill">
+                            </i>Projeto</a>
+                </li>
+                
+            </ul>
+            </nav>
+        </section>    
+    </aside>
+
+    <main id="main">
+            
+        <section id="inicio" class="row m-0 p-0">
+                <div class="col-md-5 d-flex justify-content-center aling-items-center flex-column">
+                    <h2 class="text-white text-shadow">Rafael</h2>
+                </div>    
+
+                <div class="col-md-5">
+                    <h2 class="text-white text-shadow">Renato</h2>
+                </div>    
+                       
+                <div class="col-md-5">
+                    <h2 class="text-white text-shadow">Rogerio</h2>
+                    <span id="subtitle" class="text-white text-shadow">Apresentação do conversor de
+                        moedas em Python</span> 
+                </div>    
+                       
+                                               
+                     
+                <div class="col-md-7 d-flex justify-content-end aling-items-end">
+                    <div id="arraste" class="d-flex aling-items-center"></div>
+                        <i class="bi bi-arrow-down text-white pe-2 fs-2" aria-hidden="true"></i>
+                        <a href="#sobre">Arrate para mais</a>
+                    </div>
+                </div>    
+        </section>
+
+        <section class="Sobre" id="sobre">
+            <div class="row w-100">
+                <div class="col-md-12">
+                    <h2 class="pt-3">Sobre</h2>
+                    <p>Neste projeto, criamos um conversor de moedas em Python onde a aplicação inclui
+                        as seguintes etapas:
+                        ➔ Entrada de Dados:
+                        ◆ Os usuários fornecerão o valor a ser convertido e as moedas de origem e
+                        destino.
+                        ➔ Validação de Dados:
+                        ◆ A aplicação verificará se as moedas inseridas são válidas de acordo com uma
+                        lista predefinida.
+                        ➔ Conversão de Moedas:
+                        ◆ A aplicação buscará as taxas de câmbio atualizadas da internet e realizará a
+                        conversão.
+                        ➔ Exibição dos Resultados.</p>
+                        <h3>Turma de julho</h3>
+                        <p>Integrantes turma de julho</p>    
+                    </div>           
+            </div>
+
+            <div class="sobrePerfil">
+                <div class="sob mt-4">
+                <div class="col-md-4">
+                    <img src="../static/css/imag/rafael.jpg" class="sobreImag shadow  p-3 mb-5 bg-primary !spacing " alt="Rafael">
+                </div>
+
+                <div class="col-md-4">
+                   
+                    <div class="qualificacao">
+                        <div class="qualiGrupo">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">
+                                    Nome: <span class="fw-lighter">Rafael Eleuterio</span>
+                                </li>
+                                <li class="list-group-item">
+                                    Idade: <span class="fw-lighter text-decoration-none">43</span>
+                                </li>
+                                <li class="list-group-item">
+                                    Cidade: <span class="fw-lighter">Rio de janeiro</span>
+                                </li>
+                                <li class="list-group-item">
+                                    Estado: <span class="fw-lighter">Rio de janeiro</span>
+                                </li>
+                            </ul>
+                                                   
+                        </div>
+                        <div class="local">
+                            <div class="card p-5 shadow border-0">
+                                <div class="endereco">
+                                    <h4><i class="bi bi-geo-alt"></i>Localização</h4>
+                                    <p>Rio de janeiro, RJ</p>
+                                </div>
+    
+                                <div class="mapa">
+                                    <h4><i class="bi bi-envelope-alt"></i>E-mail:</h4>
+                                    <p>rafaeleleuterio349@gmail.com</p>
+    
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14703.91354981584!2d-43
+                                    .39586032509268!3d-22.877256767026754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.
+                                    1!3m3!1m2!1s0x99626b1008be29%3A0xa0ea8efba6716c43!2sCampo%20dos%20Afonsos%2C%20Rio%20de
+                                    %20Janeiro%20-%20RJ!5e0!3m2!1spt-BR!2sbr!4v1699471984339!5m2!1spt-BR!2sbr" width="400" 
+                                    height="300" style="border:0;"
+                                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-
+                                    downgrade" class="w-100"></iframe>
+                                </div>
+    
+                                    <div>
+                                        </iframe></div>
+                            </div>
+                        </div>
+
+                        
+                    </div>    
+                </div>
+                </div>
+
+                <div class="sob mt-4">
+                <div class="col-md-4">
+                    <img src="../static/css/imag/Renato Braga.jpeg" class="sobreImag shadow  p-3 mb-5 bg-primary !spacing " alt="Rafael">
+                </div>
+
+                <div class="col-md-4">
+                    <div class="qualificacao">
+                        <div class="col md-6">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">
+                                    Nome: <span class="fw-lighter">Renato Braga</span>
+                                </li>
+                                <li class="list-group-item">
+                                    Idade: <span class="fw-lighter">35</span>
+                                </li>
+                                <li class="list-group-item">
+                                    Cidade: <span class="fw-lighter">São Paulo</span>
+                                </li>
+                                <li class="list-group-item">
+                                    Estado: <span class="fw-lighter">SP</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="local">
+                            <div class="card p-5 shadow border-0">
+                                <div class="endereco">
+                                    <h4><i class="bi bi-geo-alt"></i>Localização</h4>
+                                    <p>Rio de janeiro, RJ</p>
+                                </div>
+    
+                                <div class="mapa">
+                                    <h4><i class="bi bi-envelope-alt"></i>E-mail:</h4>
+                                    <p>paulorenato.jsb@gmail.com</p>
+    
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d467690.14
+                                        923311037!2d-46.925662962263445!3d-23.682062058230088!2m3!1f0!2f0!3f0!3m2!1i10
+                                        24!2i768!4f13.1!3m3!1m2!1s0x94ce448183a461d1%3A0x9ba94b08ff335bae!2zU8OjbyBQYXV
+                                        sbywgU1A!5e0!3m2!1spt-BR!2sbr!4v1699896173089!5m2!1spt-BR!2sbr" width="400" height="300"
+                                         style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                </div>
+    
+                                    
+                            </div>
+                        </div>
+
+                        
+                    </div>    
+                </div>
+                </div>
+
+                <div class="sob mt-4">
+                <div class="col-md-4">
+                    <img src="../static/css/imag/Rogerio Moraes.jpg" class="sobreImag shadow  p-3 mb-5 bg-primary !spacing " alt="Rafael">
+                </div>
+
+                <div class="col-md-4">
+                    <div class="qualificacao">
+                        <div class="col md-6">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">
+                                    Nome: <span class="fw-lighter">Rogerio</span>
+                                </li>
+                                <li class="list-group-item">
+                                    Idade: <span class="fw-lighter">31</span>
+                                </li>
+                                <li class="list-group-item">
+                                    Cidade: <span class="fw-lighter">Carapicuíba</span>
+                                </li>
+                                <li class="list-group-item">
+                                    Estado: <span class="fw-lighter">SP</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="local">
+                            <div class="card p-5 shadow border-0">
+                                <div class="endereco">
+                                    <h4><i class="bi bi-geo-alt"></i>Localização</h4>
+                                    <p>Rio de janeiro, RJ</p>
+                                </div>
+    
+                                <div class="mapa">
+                                    <h4><i class="bi bi-envelope-alt"></i>E-mail:</h4>
+                                    <p>rogerio1597@gmail.com</p>
+    
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58521.34300135378!2d-46.8867771933381!3d-
+                                        23.54746242489684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf001cba0369db%3A0x9f17e4f5d2d232d
+                                        b!2sParque%20da%20Aldeia%20de%20Carapicu%C3%ADba!5e0!3m2!1spt-BR!2sbr!4v1699897478093!5m2!1spt-BR!2sbr" 
+                                        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referre
+                                        r-when-downgrade"></iframe></div>
+                                </div>
+    
+    
+                            </div>
+                        </div>
+
+                        
+                    </div>    
+                </div>
+                </div>
+             </div>   
+        </section>
+     
+        <section id="projeto" class="container-">
+            <h2 class="text-progama">Projeto</h2>
+            <div class="terminal">
+                <div class="programa-terminal">
+                    <img class="img-terminal" src="{{ url_for('static', filename='css/imag/terminal.jpg') }}" alt="terminal">
+                    <a href="{{ url_for('exec_conversor') }}" class="link" target="_blank"><button type="button" class="btn-primary">Aqui</button></a>              
+
+                                        
+                      <p>Execute o arquivo para rodar o programa conversorgraphicofinalizar.py.</p>
+                      
+                </div>
+                <div class="programa-terminal0">
+                    <img class="img-terminal0" src="/static/css/imag/bolsa_de_valores.jpg" alt="bolsa_de_valores">
+                     <a href="https://github.com/RafaelEleuterio-tec/Conversor-de-moedas/tree/master" class="link"
+                         target="_blank"><button type="button" class="btn-primary">Aqui</button></a>
+                         <p>Redirecionamento para o github</p>
+                </div>
+            </div>    
+
+        </section>
+
+    </main>
+
+
+
+<footer id="footer" class="ft-container">
+    <div class="ft">
+        <div class="fa fa-linkedin" aria-hidden="true">
+            <div class="fa-link">
+                <div class="RA" id="Rafael">
+                        <h3>Rafael</h3>
+                    <a href="http://www.instagram.com/rafaeleleuterio1/">
+                       <i class="bi bi-instagram"></i>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/rafael-eleuterio/">
+                     <i class="bi bi-linkedin"></i>
+                    </a>
+
+                    <a href="https://github.com/RafaelEleuterio-tec">
+                        <i class="bi bi-github"></i>
+                    </a> 
+                </div>  
+
+                <div class="RA" id="Rogerio">    
+                
+                   <h3>Rogerio</h3>
+
+                    <a href="https://www.linkedin.com/in/rogerio-morais-1b20411a7/" target="_blank">
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+                
+                    <a href="https://www.instagram.com/rogeriosh18/" target="_blank">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                    <a href="https://github.com/RogerioVM" target="_blank">
+                     <i class="bi bi-github"></i>
+                    </a>    
+                </div>
+                <div class="RA" id="Renato">
+                    <h3>Renato</h3>
+    
+                    <a href="https://www.linkedin.com/in/paulorenato-jsb/" target="_blank">
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+                    
+                    <a href="http://www.instagram.com/" target="_blank">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                    <a href="https://github.com/paulorenatojsb" target="_blank">
+                        <i class="bi bi-github"></i>
+                    </a>
+                                  
+                    
+                </div>
+            </div>
+                
+        </div>
+    </div>            
+    
+</footer>
+
+
+</body>
+</html>
